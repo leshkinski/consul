@@ -1,0 +1,9 @@
+<service>
+  <id>consul</id>
+  <name>Consol</name>
+  <description>This service runs Consul.</description>
+  <env name="Consul_HOME" value="%BASE%"/>
+  <executable>C:\consul\consul.exe</executable>
+  <arguments>agent -server -bootstrap -config-dir C:\consul\bootstrap</arguments>
+  <logmode>rotate</logmode>
+</service>
