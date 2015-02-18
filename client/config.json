@@ -1,5 +1,5 @@
 {
-    "datacenter": "IAD",
+    "datacenter": "DC1",
     "data_dir": "C:\\consul\\data\\",
     "encrypt": "Kz766s8sFgTF4b7mF5ScbQ==",
     "log_level": "INFO",
