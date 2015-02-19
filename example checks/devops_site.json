@@ -1,0 +1,11 @@
+{
+  "service": {
+    "name": "WebSite",
+    "tags": ["iis","website"],
+    "port": 80,
+    "check": {
+      "script": "powershell.exe  -ExecutionPolicy Bypass -NoLogo -NonInteractive -noprofile c:\\consul\\scripts\\TestPort.ps1 -ComputerName localhost -Port 80 -Protocol TCP; exit $LASTEXITCODE",
+      "interval": "15s"
+    }
+  }
+}
