@@ -1,1 +1,0 @@
-sc create "Consul" binPath= "C:\consul\server\consul_service.exe" type= share start= auto
